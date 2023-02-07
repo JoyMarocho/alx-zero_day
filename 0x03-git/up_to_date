@@ -1,0 +1,8 @@
+git add .
+git commit -m "new update"
+git push origin main
+
+
+git checkout main git pull upstream main.
+git checkout my_feature_branch git rebase main.
+git add path/to/file git rebase --continue.
